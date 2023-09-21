@@ -1,0 +1,53 @@
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+.dice-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+  }
+  
+  .dice-area{
+    margin-top: 0.2rem;
+    display: flex;
+    align-items: center;
+    background: #000;
+    color: white;
+    
+    p{
+        margin: 0px;
+    }
+
+    button{
+        padding: 10px;
+        width: 3rem;
+        background: rgb(141, 0, 0);
+        color: white;
+        font-weight: bold;
+        border: none;
+    
+        &:hover{
+            background: rgb(121, 0, 0);
+            cursor: pointer;
+        }
+    
+        &:active{
+            background: red;
+        }
+      }
+  }
+
+  #d20Result, #d12Result, #d10Result, #d8Result, #d6Result, #d4Result{
+    width:3.5rem;
+  }
